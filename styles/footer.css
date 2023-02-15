@@ -1,0 +1,61 @@
+footer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+
+footer h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.info-footer{
+    color: var(--cor-do-texto);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 40px 0;
+}
+
+.signup-mail{
+    margin: 32px 0;
+}
+
+.signup-mail input{
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    padding-left: 16px;
+    width: 360px;
+    height: 48px;
+}
+
+.signup-mail input::placeholder{
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.signup-mail button{
+    background-color: var(--cor-principal);
+    color: white;
+    border: 1px solid var(--cor-principal);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 116px;
+    height: 48px;
+}
+
+.copyright{
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
